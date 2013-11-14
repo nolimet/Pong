@@ -1,4 +1,4 @@
-package utils.callulate 
+package utils.calculate 
 {
 	/**
 	 * ...
@@ -9,7 +9,7 @@ package utils.callulate
 		public var $X:Number;
 		public var $Y:Number;
 		
-		public function $Vector($X:Number = NaN, $Y:Number = NaN) 
+		public function $Vector($X:Number = null, $Y:Number = NaN) 
 		{
 			this.$Y = $Y;
 			this.$X = $X;

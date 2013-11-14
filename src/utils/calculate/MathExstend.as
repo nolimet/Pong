@@ -1,4 +1,4 @@
-package utils.callulate 
+package utils.calculate 
 {
 	import flash.display.Sprite;
 	import flash.geom.Point;

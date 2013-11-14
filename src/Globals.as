@@ -7,7 +7,7 @@ package
 	 */
 	public class Globals 
 	{
-		static public var origin:Point = new Point(400, 400);
+		public static var origin:Point = new Point(400, 400);
 	}
 
 }

@@ -18,14 +18,14 @@ package utils.movement
 			
 		}
 		
-		public function Update ($radius:Number,$speed:Number)
+		public function Update (radius:Number,speed:Number):void
 		{
 			var rad:Number = angle * (Math.PI / 180); // Converting Degrees To Radians
-			this.x = origin.x + $radius * Math.cos(rad); // Position The this Along x-axis
-			this.y = origin.y + $radius * Math.sin(rad); // Position The this Along y-axis
+			this.x = origin.x + radius * Math.cos(rad); // Position The this Along x-axis
+			this.y = origin.y + radius * Math.sin(rad); // Position The this Along y-axis
 			
 			//angle += speed; // Object will orbit clockwise
-			angle -= $speed; // Object will orbit counter-clockwise
+			angle -= speed; // Object will orbit counter-clockwise
 			
 			this.rotation = (Math.atan2(this.y - origin.y, this.x - origin.x) * 180 / Math.PI);
 		}

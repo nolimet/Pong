@@ -1,4 +1,4 @@
-package utils.callulate 
+package utils.calculate 
 {
 	import flash.geom.Point;
 	/**
