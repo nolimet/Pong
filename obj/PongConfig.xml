@@ -16,7 +16,7 @@
     </define>
     <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'11/14/2013'</value>
+      <value>'15-11-2013'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -32,19 +32,19 @@
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>C:\Users\Kevin\Documents\GitHub\Pong\src</path-element>
+      <path-element>D:\GitHub\Pong\src</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>C:\Users\Kevin\Documents\GitHub\Pong\lib\BallArt.swc</path-element>
-      <path-element>C:\Users\Kevin\Documents\GitHub\Pong\lib\Menu\CreditsButton.swc</path-element>
-      <path-element>C:\Users\Kevin\Documents\GitHub\Pong\lib\Menu\MenuBackground.swc</path-element>
-      <path-element>C:\Users\Kevin\Documents\GitHub\Pong\lib\Menu\StartButton.swc</path-element>
-      <path-element>C:\Users\Kevin\Documents\GitHub\Pong\lib\Menu\OptionsButton.swc</path-element>
+      <path-element>D:\GitHub\Pong\lib\BallArt.swc</path-element>
+      <path-element>D:\GitHub\Pong\lib\Menu\CreditsButton.swc</path-element>
+      <path-element>D:\GitHub\Pong\lib\Menu\MenuBackground.swc</path-element>
+      <path-element>D:\GitHub\Pong\lib\Menu\StartButton.swc</path-element>
+      <path-element>D:\GitHub\Pong\lib\Menu\OptionsButton.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>C:\Users\Kevin\Documents\GitHub\Pong\src\Main.as</path-element>
+    <path-element>D:\GitHub\Pong\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>

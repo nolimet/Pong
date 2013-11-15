@@ -11,16 +11,25 @@ package utils.loaders
 	{
 		private var sound:Sound = new Sound();
 		private var channel:SoundChannel = new SoundChannel();
+		private var _playing:Boolean = false;
 		
-		public function SoundPlayer(url:String)
+		public function SoundPlayer($url:String, $volum:int)
 		{
-			sound.load(new URLRequest(url));
-			channel = sound.play(0,9001,null);
+			$volum = $volum / 100;
+			sound.load(new URLRequest($url));
+			channel = sound.play(0,$volum, null);
+			_playing = true
+			
 		}
 		
-		public function stop():void
+		public function stopS():void
 		{
 			channel.stop();
+			_playing=false
+		}
+		public function get playing():Boolean 
+		{
+			return _playing;
 		}
 	}
 
