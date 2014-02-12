@@ -43,7 +43,7 @@ package gamestate
 					_speed -= 0.05;
 					break;
 			}
-			test.Update(_radius, _speed);
+			_test.Update(_radius, _speed);
 		}
 	}
 
